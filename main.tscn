@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://24rd21oktd2h"]
+
+[ext_resource type="Script" uid="uid://bnra2q4u06d1a" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Control" type="Control" unique_id=1262873713]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ig7tw")
+
+[node name="Button" type="Button" parent="." unique_id=2122861940]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 200.0
+offset_right = 250.0
+offset_bottom = 450.0
+text = "🚪 A"
+
+[node name="Button2" type="Button" parent="." unique_id=100450819]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 200.0
+offset_right = 450.0
+offset_bottom = 450.0
+text = "🚪 B"
+
+[node name="Button3" type="Button" parent="." unique_id=322975198]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 200.0
+offset_right = 650.0
+offset_bottom = 450.0
+text = "🚪 C
+"
+
+[node name="Label" type="Label" parent="." unique_id=345596409]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 50.0
+offset_right = 439.0
+offset_bottom = 73.0
+text = "Bir odada 3 kapı var.
+A: “Doğru kapı B.”
+B: “Doğru kapı C.”
+C: “Doğru kapı B değil.”
+Yalnızca bir yazı doğru. Hangi kapıyı seçmelisin?"
